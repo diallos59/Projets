@@ -1,0 +1,24 @@
+{
+  "name": "starship",
+  "version": "1.0.0",
+  "description": "projet starship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "hotloader": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab-etu.fil.univ-lille1.fr/sangare/l3s6javascript"
+  },
+  "author": "baht, sangare",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
